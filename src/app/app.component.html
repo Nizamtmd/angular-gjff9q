@@ -1,3 +1,11 @@
-<hello name="{{ name }}"></hello>
-<input type="text" [value]="[name]"/> <br/>
-{{name}}
+<!-- {{name}} <br/>
+	Enter Name : <input type="text" (change)="ChangeName($event.target.value)"/> 
+
+<div *ngIf="chk">
+  {{name}}
+  </div>
+  <button (click)="toggleCheck()">Click</button> -->
+
+  <li *ngFor='let e of emp'>
+    {{e.name}}
+  </li>
